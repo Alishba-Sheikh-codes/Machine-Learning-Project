@@ -27,6 +27,15 @@ This project performs brain tumor detection and segmentation using **YOLOv11** (
 
 ## 🧪 Environment Setup (Colab)
 
+### 📂 Dataset Access
+
+Due to size constraints, the dataset is stored on Google Drive.
+
+🔗 [Download Dataset from Google Drive]([https://drive.google.com/your-shareable-link](https://drive.google.com/drive/folders/1YbGmd5JVeiA-pAinUNBL8hfXHBLnWcfA?usp=drive_link))
+
+After downloading, place the dataset inside the `datasets/` folder before running the notebook.
+
+
 # Mount Google Drive
 from google.colab import drive
 drive.mount('/content/drive')
